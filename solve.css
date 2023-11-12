@@ -1,5 +1,5 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     z-index: 0;
@@ -11,19 +11,18 @@ body {
 }
 
 .nav-top {
-    z-index: 1;    
+    z-index: 1;
     width: 100vw;
     display: flex;
     align-items: top;
     position: fixed;
-    
 }
 
 .menu-top {
     background: #FFFFFF;
     width: 100%;
     display: list-item;
-    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
@@ -51,7 +50,7 @@ body {
 }
 
 .nav-side {
-    z-index:2;
+    z-index: 2;
     height: 100vh;
     width: 12vw;
     display: flex;
@@ -100,7 +99,7 @@ span a {
 
 .nav-cover {
     z-index: 1;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     opacity: 1;
     height: 100vh;
     width: 100vw;
@@ -114,7 +113,6 @@ span a {
     transition: opacity 300ms ease-out, transform 10ms ease-out;
 }
 
-
 .navbar-hidden {
     transform: translateX(-12vw);
     transition: transform 300ms ease-out;
@@ -122,7 +120,6 @@ span a {
 
 .left {
     float: left;
-    
 }
 
 .right {
@@ -135,8 +132,6 @@ span a {
     bottom: 0;
 }
 
-
-
 .menu-side .logo {
     font-size: 10vw;
 }
@@ -145,28 +140,19 @@ span a {
     padding-top: 7vh;
     width: 100%;
     background: #E5E5E5;
-    /*
-    background-image: url("site_media/EIGER1_2.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
 }
 
 .hoverable {
     transition: color 0.5s
 }
+
 .hoverable:hover {
     color: #FCA311;
     transition: color 0.5s;
 }
 
-/*where changes happen... */
-
 .solve-container {
     width: 86vw;
-    
     margin: 7vw;
     background: #e5e5e5;
     overflow: hidden;
@@ -213,7 +199,6 @@ span a {
     height: 28vh;
 }
 
-
 .input-container {
     display: grid;
     width: 50%;
@@ -223,7 +208,8 @@ span a {
     margin-top: 5vh;
 }
 
-.input-container label, span#file-selected {
+.input-container label,
+span#file-selected {
     position: absolute;
     top: 3vh;
     color: black;
@@ -234,7 +220,6 @@ span a {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    
 }
 
 .input-container label {
@@ -244,8 +229,6 @@ span a {
 .input-container .file-upload {
     cursor: pointer;
 }
-
-
 
 input.text-input {
     display: block;
@@ -262,59 +245,62 @@ input.text-input {
     overflow: hidden;
 }
 
-input.text-input::-webkit-outer-spin-button,input.text-input::-webkit-inner-spin-button {
+input.text-input::-webkit-outer-spin-button,
+input.text-input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-
-
 
 .input-hidden {
     display: none;
 }
 
-input.text-input:valid ~ label {
+input.text-input:valid~label {
     top: 0;
     font-size: 1.8vh;
     color: black;
 }
+
 input.text-input:focus {
     outline: none;
 }
 
-input.text-input:focus ~ label {
+input.text-input:focus~label {
     top: 0;
     font-size: 1.8vh;
     color: #FCA311;
-  }
-  input.text-input:focus ~ .bar:before {
+}
+
+input.text-input:focus~.bar:before {
     transform: translateX(0);
-  }
-  input.text-input:-webkit-autofill {
+}
+
+input.text-input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px #E5E5E5 inset;
     -webkit-text-fill-color: black !important;
-  }
-  
-  .bar {
+}
+
+.bar {
     background: black;
     content: "";
     width: 75%;
     height: .3vh;
     transition: 0.3s ease;
     position: relative;
-  }
-  .bar:before {
+}
+
+.bar:before {
     content: "";
     position: absolute;
     width: 100%;
     height: 150%;
     background: #FCA311;
     transform: translateX(-100%);
-  }
-  
-  ::selection {
+}
+
+::selection {
     background: #FCA31175;
-  }
+}
 
 .solve-button-container {
     overflow: visible;
@@ -384,11 +370,11 @@ input.text-input:focus ~ label {
     border-radius: 50%;
 }
 
-.checkbox:checked + .slider {
+.checkbox:checked+.slider {
     background-color: #14213D;
 }
 
-.checkbox:checked + .slider:before {
+.checkbox:checked+.slider:before {
     transform: translateX(5vh);
     background-color: #FCA311;
 }
@@ -416,8 +402,6 @@ input.text-input:focus ~ label {
     overflow: hidden;
     transition: height .3s ease-in, opacity .3s linear, overflow .3s linear;
 }
-
-
 
 .solve-buttons i:not(.icon-hidden) {
     width: auto;
@@ -447,7 +431,7 @@ input.text-input:focus ~ label {
     margin: 8vw;
 }
 
-.php-result-container > div {
+.php-result-container>div {
     display: inline;
     float: left;
 }
@@ -482,7 +466,8 @@ input.text-input:focus ~ label {
     border-radius: 0 5vh 5vh 0;
 }
 
-.php-inputs, .php-outputs {
+.php-inputs,
+.php-outputs {
     display: flex;
     flex-direction: column;
     height: 40%;
@@ -527,7 +512,7 @@ input.text-input:focus ~ label {
     font-size: 1.4vw;
 }
 
-.php-input-table tr td span{
+.php-input-table tr td span {
     font-size: 1vw;
 }
 
@@ -567,14 +552,12 @@ input.text-input:focus ~ label {
     height: 90%;
     background: #585858;
     border-radius: 0 0 5vh 5vh;
-    
 }
 
 .php-dropdown-hidden {
     height: 0;
     padding-bottom: calc(((100vh - 8vw) * 0.1) + 8vw);
     transition: height 0.3s linear, padding-bottom 0.3s linear;
-
 }
 
 .php-dropdown-hidden .php-dropdown-title {
@@ -582,7 +565,6 @@ input.text-input:focus ~ label {
     transition: border-radius 0.3s linear;
     transition-delay: 0.3s;
 }
-
 
 .php-dropdown-button i {
     position: relative;
@@ -592,16 +574,15 @@ input.text-input:focus ~ label {
     opacity: 100;
     transition: opacity 0.3s linear;
 }
+
 .php-dropdown-button i.php-icon-hidden {
     opacity: 0;
     transition: opacity 0.3s linear;
 }
 
-
-
 .php-dropdown-scrollable {
     width: calc(100% - 8vw);
-    height: calc(100% - 8vw);;
+    height: calc(100% - 8vw);
     margin: auto;
     position: relative;
     top: 4vw;
@@ -630,11 +611,9 @@ input.text-input:focus ~ label {
     border: none;
 }
 
-
 .no-display {
     display: none;
 }
-
 
 input[type="file"] {
     visibility: hidden;
@@ -643,4 +622,3 @@ input[type="file"] {
 input[type="file"] {
     -moz-appearance: textfield;
 }
-

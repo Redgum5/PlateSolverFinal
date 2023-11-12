@@ -1,5 +1,5 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     z-index: 0;
@@ -11,19 +11,18 @@ body {
 }
 
 .nav-top {
-    z-index: 1;    
+    z-index: 1;
     width: 100vw;
     display: flex;
     align-items: top;
     position: fixed;
-    
 }
 
 .menu-top {
     background: #FFFFFF;
     width: 100%;
     display: list-item;
-    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
@@ -56,7 +55,7 @@ body {
 }
 
 .nav-side {
-    z-index:2;
+    z-index: 2;
     height: 100vh;
     width: 12vw;
     display: flex;
@@ -89,7 +88,7 @@ body {
 
 .nav-cover {
     z-index: 1;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     opacity: 1;
     height: 100vh;
     width: 100vw;
@@ -111,7 +110,6 @@ body {
 
 .left {
     float: left;
-    
 }
 
 .right {
@@ -130,7 +128,6 @@ body {
 
 .page-content {
     padding-top: 7vh;
-    
 }
 
 .top a {
@@ -138,6 +135,7 @@ body {
     color: #FFFFFF;
     transition: color 300ms linear;
 }
+
 .top a:hover {
     color: #FCA311;
     transition: color 300ms linear;
@@ -159,7 +157,6 @@ body {
     display: block;
     left: 18vw;
     top: 35vh;
-    
 }
 
 .section1-title {
@@ -184,11 +181,9 @@ body {
     width: calc(100% - 16vw);
     height: calc(100% - 8vw);
     margin: 8vw;
-    
-    
 }
 
-.section2-container > div {
+.section2-container>div {
     display: inline;
     float: left;
 }
@@ -196,7 +191,6 @@ body {
 .section2-left {
     height: 100%;
     width: 70%;
-    
 }
 
 .section2-left img {
@@ -221,7 +215,6 @@ body {
     margin: auto;
     position: relative;
     top: 20%;
-
 }
 
 .section2-title {
@@ -269,63 +262,6 @@ body {
     transition: background 300ms ease-in, color 300ms ease-in, transform 300ms ease-in;
 }
 
-
-
-
-
-
-/*
-.section2 div {
-    height: 100%;
-    float: left;
-    width: 50%;
-    margin: auto;
-    overflow: hidden;
-}
-
-.section2-left-img {
-    display: flex;
-    margin: auto;
-    padding: 15% 5%;
-    height: 100%;
-}
-
-
-.section2 .section2-right div {
-    width: 100%;
-    height: 50%;
-    margin: auto;
-    padding: 15% 5%;
-}
-
-.section2-right-top {
-    
-    text-align: justify;
-    font-size: 2vh;
-    
-}
-
-.go-button {
-    border: none;
-    background-color: #14213D;
-    border-radius: 3vh;
-    width: 18vw;
-    height: 6vh;
-    color: #FCA311;
-    cursor: pointer;
-}
-
-.section2-right-bottom {
-
-}
-
-.section2::after {
-    content: "";
-    clear:both;
-    display: table;
-}
-*/
-
 .section3 {
     height: 70vh;
     width: 100vw;
@@ -344,7 +280,7 @@ body {
 
 .section3-card {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     grid-column-gap: 5%;
     grid-row-gap: 5%;
     width: 33%;
@@ -357,22 +293,17 @@ body {
     height: 75%;
     width: 70%;
     margin: auto;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 50px;
     transition: transform 300ms ease-out, background 300ms ease-out;
     color: #000;
 }
 
-
-
 .section3-card-holder:hover {
     transform: scale(102%);
     background: #FFF;
     transition: transform 300ms ease-in, background 300ms ease-in;
-    
 }
-
-
 
 .section3-text {
     display: flex;
@@ -386,24 +317,26 @@ body {
     color: #000;
 }
 
-.section3-text .section3-title{
+.section3-text .section3-title {
     font-size: 1.7vw;
 }
+
 .section3-text .section3-icon {
     color: #14213D;
     font-size: 6vw;
 }
 
-.section3-text a,.section3-desc {
+.section3-text a,
+.section3-desc {
     font-size: 1vw;
     text-decoration: none;
     color: #000;
 }
 
-
 .hoverable {
     transition: color 0.5s
 }
+
 .hoverable:hover {
     color: #FCA311;
     transition: color 0.5s;
@@ -412,8 +345,6 @@ body {
 .section4 {
     height: 12vh;
     width: 100vw;
-    
-    
 }
 
 .contact {
@@ -423,28 +354,22 @@ body {
 }
 
 .contact div {
-    
     position: relative;
     width: 50%;
     margin: 0;
-    
 }
 
 .contact div p {
     width: 90%;
     text-align: left;
-    padding-left: 30%; 
+    padding-left: 30%;
     font-size: 2.2vh;
-
 }
 
 .contact .contact-right p {
     font-size: 4.5vh;
     padding-top: 2%;
-    
 }
-
-
 
 .cards {
     display: grid;
@@ -457,22 +382,17 @@ body {
     justify-content: space-around;
 }
 
-
 .card {
     display: grid;
     position: relative;
     margin-top: 2vw;
     height: 60vh;
     border-radius: 4vh;
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
     transform: scale(100%);
     transition: transform 300ms linear;
-
 }
-
-
-
 
 .card:hover {
     transform: scale(102%);
@@ -480,16 +400,14 @@ body {
 }
 
 .card-cover {
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     border-radius: 4vh;
     opacity: 0;
     transition: opacity 300ms linear;
     overflow: hidden;
-
 }
 
 .card-cover:hover {
-    
     opacity: 100;
     transition: opacity 300ms linear;
 }
@@ -500,7 +418,6 @@ body {
     top: 0;
     transform: translateY(50%);
 }
-
 
 .card-icons {
     text-align: center;

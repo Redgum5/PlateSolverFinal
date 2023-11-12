@@ -1,5 +1,5 @@
 * {
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     z-index: 0;
@@ -11,19 +11,18 @@ body {
 }
 
 .nav-top {
-    z-index: 1;    
+    z-index: 1;
     width: 100vw;
     display: flex;
     align-items: top;
     position: fixed;
-    
 }
 
 .menu-top {
     background: #FFFFFF;
     width: 100%;
     display: list-item;
-    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
@@ -51,7 +50,7 @@ body {
 }
 
 .nav-side {
-    z-index:2;
+    z-index: 2;
     height: 100vh;
     width: 12vw;
     display: flex;
@@ -84,7 +83,7 @@ body {
 
 .nav-cover {
     z-index: 1;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     opacity: 1;
     height: 100vh;
     width: 100vw;
@@ -97,7 +96,6 @@ body {
     opacity: 0;
     transition: opacity 300ms ease-out, transform 10ms ease-out;
 }
-
 
 .navbar-hidden {
     transform: translateX(-12vw);
@@ -122,7 +120,6 @@ span a {
 
 .left {
     float: left;
-    
 }
 
 .right {
@@ -142,11 +139,11 @@ span a {
 .hoverable {
     transition: color 0.5s
 }
+
 .hoverable:hover {
     color: #FCA311;
     transition: color 0.5s;
 }
-
 
 .page-content {
     padding-top: 7vh;
@@ -159,6 +156,7 @@ span a {
     margin: 8vw;
     display: flex;
 }
+
 .admin-box {
     width: calc(100% - 16vw);
     height: calc(100% - 8vw);
@@ -166,6 +164,7 @@ span a {
     display: flex;
     background-color: white;
 }
+
 .login-inputs {
     position: relative;
     width: 90%;
@@ -206,12 +205,14 @@ span a {
 .login-right::-webkit-scrollbar {
     overflow: overlay;
 }
-.login-right::-webkit-scrollbar-track{
+
+.login-right::-webkit-scrollbar-track {
     background: transparent;
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
-.login-right::-webkit-scrollbar-thumb{
+
+.login-right::-webkit-scrollbar-thumb {
     background: white;
     border-radius: 5vh;
 }
@@ -223,7 +224,6 @@ span a {
     height: 28vh;
 }
 
-
 .input-container {
     display: grid;
     width: 100%;
@@ -233,7 +233,7 @@ span a {
     margin-top: 5vh;
 }
 
-.input-container label{
+.input-container label {
     position: absolute;
     top: 3vh;
     font-size: 3vh;
@@ -242,13 +242,11 @@ span a {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    
 }
 
 .input-container label {
     cursor: text;
 }
-
 
 input.text-input {
     display: block;
@@ -263,60 +261,62 @@ input.text-input {
     overflow: hidden;
 }
 
-input.text-input::-webkit-outer-spin-button,input.text-input::-webkit-inner-spin-button {
+input.text-input::-webkit-outer-spin-button,
+input.text-input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-
-
 
 .input-hidden {
     display: none;
 }
 
-input.text-input:valid ~ label {
+input.text-input:valid~label {
     top: 0;
     font-size: 1.8vh;
-    
 }
+
 input.text-input:focus {
     outline: none;
 }
 
-input.text-input:focus ~ label {
+input.text-input:focus~label {
     top: 0;
     font-size: 1.8vh;
     color: #FCA311;
-  }
-  input.text-input:focus ~ .bar:before {
+}
+
+input.text-input:focus~.bar:before {
     transform: translateX(0);
-  }
-  input.text-input:-webkit-autofill {
+}
+
+input.text-input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px #E5E5E5 inset;
     -webkit-text-fill-color: black !important;
-  }
-  
-  .bar {
+}
+
+.bar {
     content: "";
     width: 75%;
     height: .3vh;
     transition: 0.3s ease;
     position: relative;
-  }
-  .bar:before {
+}
+
+.bar:before {
     content: "";
     position: absolute;
     width: 100%;
     height: 150%;
     background: #FCA311;
     transform: translateX(-100%);
-  }
-  
-  ::selection {
+}
+
+::selection {
     background: #FCA31175;
-  }
-  
-  .button-container {
+}
+
+.button-container {
     overflow: visible;
     display: grid;
     width: 100%;
@@ -336,28 +336,33 @@ input.text-input:focus ~ label {
     transition: background 300ms ease-in, color 300ms ease-in, transform 300ms ease-in;
 }
 
-.login-left .bar, .login-left .submit-button{
+.login-left .bar,
+.login-left .submit-button {
     background: #000000;
     color: white;
-  }
-  .login-left input.text-input, .login-left label, .login-left .login-title {
+}
+
+.login-left input.text-input,
+.login-left label,
+.login-left .login-title {
     color: black;
     background: white;
-  }
+}
 
-
-
-  .login-right .bar,  .login-right .submit-button{
+.login-right .bar,
+.login-right .submit-button {
     background: white;
     color: black;
-  }
+}
 
-  .login-right input.text-input, .login-right label, .login-right .login-title{
+.login-right input.text-input,
+.login-right label,
+.login-right .login-title {
     color: white;
     background: black;
-  }
-  
-  .submit-button:hover {
+}
+
+.submit-button:hover {
     transform: scale(103%);
     color: #FCA311;
     transition: color 300ms ease-out, transform 300ms ease-out;
@@ -370,8 +375,7 @@ input.text-input:focus ~ label {
     margin-top: 5%;
     color: red;
     font-size: 2vh;
-
-} 
+}
 
 .login_state_hidden {
     display: none;
