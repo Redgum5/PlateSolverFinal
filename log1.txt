@@ -1,0 +1,99 @@
+    INPUTS
+Executable Name: ./PlateSolver
+Image Path: uploads/img1.png
+Log Path: log1.txt
+Estimated FOV: 20
+Mismatch Probability: -18
+Threshold Value: 128
+Return Star Extraction: True
+Return All Matches: True
+
+    EXTRACTED STARS
+No. Extracted: 69
+ID: 0, AREA: 95, Sx: 519.421, Sy: 795.642
+ID: 1, AREA: 64, Sx: 41.9531, Sy: 291.953
+ID: 2, AREA: 43, Sx: 480.953, Sy: 586.581
+ID: 3, AREA: 34, Sx: 14.8235, Sy: 566.706
+ID: 4, AREA: 33, Sx: 649.939, Sy: 506.576
+ID: 5, AREA: 33, Sx: 346, Sy: 500.758
+ID: 6, AREA: 33, Sx: 308.939, Sy: 534.576
+ID: 7, AREA: 33, Sx: 267.061, Sy: 564.576
+ID: 8, AREA: 28, Sx: 460.393, Sy: 580.75
+ID: 9, AREA: 24, Sx: 388.208, Sy: 826.208
+ID: 10, AREA: 17, Sx: 326.353, Sy: 651
+ID: 11, AREA: 12, Sx: 365.5, Sy: 524.5
+ID: 12, AREA: 11, Sx: 84.1818, Sy: 879.182
+ID: 13, AREA: 11, Sx: 440.455, Sy: 573.909
+ID: 14, AREA: 10, Sx: 651.5, Sy: 103.4
+ID: 15, AREA: 10, Sx: 42, Sy: 520.8
+ID: 16, AREA: 8, Sx: 586, Sy: 228.5
+ID: 17, AREA: 8, Sx: 248.125, Sy: 658.25
+ID: 18, AREA: 8, Sx: 475.25, Sy: 754.375
+ID: 19, AREA: 8, Sx: 120.5, Sy: 847
+ID: 20, AREA: 7, Sx: 529.571, Sy: 850.714
+ID: 21, AREA: 6, Sx: 589.167, Sy: 258.667
+ID: 22, AREA: 6, Sx: 525.5, Sy: 706
+ID: 23, AREA: 5, Sx: 174.6, Sy: 610.2
+ID: 24, AREA: 5, Sx: 576.4, Sy: 454.8
+ID: 25, AREA: 5, Sx: 561.6, Sy: 92.8
+ID: 26, AREA: 5, Sx: 523.6, Sy: 629.2
+ID: 27, AREA: 5, Sx: 441.6, Sy: 9.2
+ID: 28, AREA: 5, Sx: 430.6, Sy: 336.8
+ID: 29, AREA: 5, Sx: 125.4, Sy: 461.8
+ID: 30, AREA: 5, Sx: 370.6, Sy: 969.2
+ID: 31, AREA: 4, Sx: 316.75, Sy: 493
+ID: 32, AREA: 4, Sx: 171.5, Sy: 111.5
+ID: 33, AREA: 4, Sx: 203.5, Sy: 55.5
+ID: 34, AREA: 4, Sx: 576.5, Sy: 330.5
+ID: 35, AREA: 4, Sx: 247.75, Sy: 209
+ID: 36, AREA: 4, Sx: 536.25, Sy: 565
+ID: 37, AREA: 4, Sx: 109.75, Sy: 612
+ID: 38, AREA: 4, Sx: 487.5, Sy: 286.5
+ID: 39, AREA: 4, Sx: 477.5, Sy: 391.5
+ID: 40, AREA: 4, Sx: 273.5, Sy: 35.5
+ID: 41, AREA: 4, Sx: 473, Sy: 152.25
+ID: 42, AREA: 4, Sx: 115.5, Sy: 21.5
+ID: 43, AREA: 4, Sx: 453.5, Sy: 906.5
+ID: 44, AREA: 4, Sx: 315.5, Sy: 570
+ID: 45, AREA: 4, Sx: 137.5, Sy: 539.5
+ID: 46, AREA: 4, Sx: 372.5, Sy: 173.5
+ID: 47, AREA: 4, Sx: 135.5, Sy: 653.5
+ID: 48, AREA: 4, Sx: 369.5, Sy: 57.5
+ID: 49, AREA: 4, Sx: 134.5, Sy: 580.5
+ID: 50, AREA: 4, Sx: 127.5, Sy: 508.5
+ID: 51, AREA: 4, Sx: 367.5, Sy: 813
+ID: 52, AREA: 3, Sx: 272.333, Sy: 637.333
+ID: 53, AREA: 3, Sx: 34.3333, Sy: 669.667
+ID: 54, AREA: 3, Sx: 624.333, Sy: 720.333
+ID: 55, AREA: 3, Sx: 601.667, Sy: 13.3333
+ID: 56, AREA: 3, Sx: 179.333, Sy: 231.333
+ID: 57, AREA: 3, Sx: 226.667, Sy: 455.667
+ID: 58, AREA: 3, Sx: 248.333, Sy: 310.333
+ID: 59, AREA: 3, Sx: 145.333, Sy: 709.333
+ID: 60, AREA: 3, Sx: 301.667, Sy: 558.667
+ID: 61, AREA: 3, Sx: 367.667, Sy: 933.667
+ID: 62, AREA: 3, Sx: 511.667, Sy: 561.667
+ID: 63, AREA: 3, Sx: 112.667, Sy: 703.667
+ID: 64, AREA: 3, Sx: 370.667, Sy: 832.667
+ID: 65, AREA: 3, Sx: 311.667, Sy: 156.333
+ID: 66, AREA: 3, Sx: 402.333, Sy: 526.333
+ID: 67, AREA: 3, Sx: 291, Sy: 592
+ID: 68, AREA: 3, Sx: 296, Sy: 317
+
+    FULL OUTPUT
+RA: 85.3184, DEC: -1.3208, ROLL: 13.8665, FOV: 25.8791, PROB: 3.27826e-55 
+
+    FINAL RESULT
+RA: 85.3184
+DEC: -1.3208
+ROLL: 13.8665
+FOV: 25.8791
+PROB: 3.27826e-55
+
+    TIMES
+All times in microseconds
+Extract Stars: 979
+Load Polygon Catalogue: 770538
+Load Vector Catalogue: 11032
+Solve: 42124
+Total: 1309024

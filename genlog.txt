@@ -1,0 +1,12 @@
+    INPUTS
+Executable Name: ./PlateSolver
+Hipparcos Filepath: hip_main.dat
+Log Filepath: genlog.txt
+Vector Filepath: 20Vectors.dat
+Catalogue Filepath: 20Catalogue.dat
+FOV: 20
+
+    INPUT CATALOGUE
+Incomplete entries: 263
+Entries Loaded: 117955
+
